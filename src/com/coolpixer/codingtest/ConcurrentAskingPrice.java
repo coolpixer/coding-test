@@ -86,20 +86,6 @@ public class ConcurrentAskingPrice extends BaseSolution {
         return new int[] { fillPrice, fillAmount };
     }
 
-    static class RandomGenerator {
-        private Random random;
-
-        public RandomGenerator() {
-            random = new Random();
-            msg("RandomGenerator() called");
-        }
-
-        public int getRandomInt(int bound) {
-            msg("RandomGenerator.getRandomInt() called");
-            return random.nextInt(bound);
-        }
-    }
-
     static class Order {
         private String name;
         private int price;
