@@ -3,13 +3,6 @@ package com.coolpixer.codingtest;
 import java.util.*;
 
 public class Incompletion extends BaseSolution {
-    public static void main(String[] args) {
-        msg(new Incompletion().solution(
-                new String[]{"leo", "kiki", "leo"},
-                new String[]{"leo", "kiki"}
-                ));
-    }
-
     private String[] emptyArray() {
         return new String[]{};
     }
