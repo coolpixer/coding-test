@@ -1,6 +1,6 @@
 package com.coolpixer.codingtest;
 
-public class BinaryGap extends BaseSolution {
+public class BinaryGap {
     public int solution(int N) throws Exception {
         if(N < 1)   throw new Exception("invalid parameter");
 

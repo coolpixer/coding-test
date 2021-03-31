@@ -2,7 +2,7 @@ package com.coolpixer.codingtest;
 
 import java.util.*;
 
-public class Incompletion extends BaseSolution {
+public class Incompletion {
     private String[] emptyArray() {
         return new String[]{};
     }

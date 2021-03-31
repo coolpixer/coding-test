@@ -3,7 +3,7 @@ package com.coolpixer.codingtest;
 import java.util.Optional;
 import java.util.StringJoiner;
 
-public class BaseSolution {
+public class CommonUtil {
     static final String ARRAY_DELIMITER = ",";
     static final String ARRAY_PREFIX    = "[";
     static final String ARRAY_SUFFIX    = "]";
@@ -141,5 +141,4 @@ public class BaseSolution {
         }
         msg(sj.toString());
     }
-
 }

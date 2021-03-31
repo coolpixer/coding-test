@@ -2,6 +2,8 @@ package com.coolpixer.codingtest;
 
 import java.util.Stack;
 
+import static com.coolpixer.codingtest.CommonUtil.msg;
+
 /**
  * 문제 설명
  * 초 단위로 기록된 주식가격이 담긴 배열 prices가 매개변수로 주어질 때, 가격이 떨어지지 않은 기간은 몇 초인지를 return 하도록 solution 함수를 완성하세요.
@@ -21,7 +23,7 @@ import java.util.Stack;
  * 4초 시점의 ₩2은 1초간 가격이 떨어지지 않았습니다.
  * 5초 시점의 ₩3은 0초간 가격이 떨어지지 않았습니다.
  */
-public class StockPrice extends BaseSolution {
+public class StockPrice {
     public static void main(String[] args) {
         // 3, 2, 3, 2, 1
         // 3, 2, 3, 2

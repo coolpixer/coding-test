@@ -4,6 +4,8 @@ import java.text.DecimalFormat;
 import java.util.*;
 import java.util.stream.Collectors;
 
+import static com.coolpixer.codingtest.CommonUtil.msg;
+
 /**
  * 매도, 매수 주문간의 동시호가 체결가격과 체결가능수량을 구한다.
  * 가격별 주문 가능 수량을 산정하여 최대 다수의 주문이 가능한 가격을 체결가로 정한다.
@@ -20,7 +22,7 @@ import java.util.stream.Collectors;
  *
  *  함수는 다음을 반환해야 한다. [20000, 1000]
  */
-public class ConcurrentAskingPrice extends BaseSolution {
+public class ConcurrentAskingPrice {
     public static void main(String[] args) {
         Object[][] sell = {
                 { "a", 500, 19500 }
